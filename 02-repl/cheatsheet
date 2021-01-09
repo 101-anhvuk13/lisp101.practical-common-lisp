@@ -1,0 +1,14 @@
+from file buf
+C-x C-s                 save file
+C-x C-c                 close emacs
+C-x C-e                 evaluate the form before cursor
+                        and print result at status line
+M-x slime RET           open repl
+C-c C-c                 send outermost form to repl
+C-c C-z                 move cursor to repl buf
+
+from repl buf
+,quit RET               close repl and all its buf
+
+from error buf
+q                       close current buf
